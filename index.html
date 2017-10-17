@@ -21,7 +21,6 @@
 				<li><a href="#two">Beneficios</a></li>
 				<li><a href="#three">Requisitos</a></li>
 				<li><a href="#four">Participar</a></li>
-				<!-- <li><a href="#five">Candidatos</a></li> -->
 			</ul>
 		</nav>
 		<footer>
@@ -97,66 +96,32 @@
 				</div>
 			</section>
 
-			<!-- Four -->
 			<section id="four">
 				<div class="container">
 					<h3>Participe!</h3>
 					<p>Lembrando que alinhamento de myer-briggs e signos são coisas meramente opcionais pois não passam de pseudo-ciencia. Se vc curte pode até por os mapa astral, os orixa na descrição</p>
 					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSecyelqBvBPsZZdaYgFKR_53rF5oDF14G96xhb9HgACglSqBw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
-				<div id="msg"  style="display:none;" class="msg" > Obrigado! Seu curriculo será analizado!</div>
-				</section>
+					<div id="msg"  style="display:none;" class="msg" > Obrigado! Seu curriculo será analizado!</div>
+				</div>		
+			</section>
+		</div>	
 
-							<!-- <section id="five">
-								<div class="container">
-									<h3>Candidatos!</h3>
-									<p>Confira os candidatos</p>
-									<div>
-										<h5>Nome</h5>
-										<p>Lorem IPsum cuzao</p>
-									</div>
-								</div>
-							</section> -->
-						</div>
+		<section id="footer">
+			<div class="container">
+				<ul class="copyright">
+					<li>&copy; Untitled. All rights reserved to Arthur Rosso.</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>Parte do código: <a href="https://github.com/anabastos/mozao">Ana Bastos</a></li>
+				</ul>
+			</div>
+		</section>
+	</div>
 
-						<section id="footer">
-							<div class="container">
-								<ul class="copyright">
-									<li>&copy; Untitled. All rights reserved to Arthur Rosso.</li>
-									<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-									<li>Parte do código: <a href="https://github.com/anabastos/mozao">Ana Bastos</a></li>
-								</ul>
-							</div>
-						</section>
-
-					</div>
-
-					<script src="assets/js/jquery.min.js"></script>
-					<script src="assets/js/jquery.scrollzer.min.js"></script>
-					<script src="assets/js/jquery.scrolly.min.js"></script>
-					<script src="assets/js/skel.min.js"></script>
-					<script src="assets/js/util.js"></script>
-					<script src="assets/js/main.js"></script>
-
-					<script>	
-						var connection = new ActiveXObject("ADODB.Connection") ;
-
-						var connectionstring="Data Source=oracle.canoas.ifrs.edu.br;Initial Catalog=MOZAO;User ID=BD3_INT19;Password=BD3_INT19;Provider=SQLOLEDB";
-
-						connection.Open(connectionstring);
-
-						var rs = new ActiveXObject("ADODB.Recordset");
-
-						rs.Open("SELECT * FROM table", connection);
-						rs.MoveFirst
-						while(!rs.eof)
-						{
-							document.write(rs.fields(1));
-							rs.movenext;
-						}
-
-						rs.close;
-						connection.close;
-					</script>
-
-				</body>
-				</html>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollzer.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
