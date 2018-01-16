@@ -1,1 +1,1 @@
-### [INCRICOES ABERTAS PARA MOZAO 2017](https://ArthurRosso.github.io/mozao/)
+### [INCRICOES ABERTAS PARA MOZAO DO BRUNO](https://ArthurRosso.github.io/mozao/)
